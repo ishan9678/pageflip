@@ -1,0 +1,41 @@
+.Home {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 700px;
+  }
+
+  .custom-heading {
+    width: 480px; 
+    height: 100px;
+    font-size: 45px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 800;
+  }
+  
+  .left {
+    flex: 1; 
+  }
+  
+  .left img {
+    margin-left: 100px;
+    width: 600px; 
+    height: 600px;
+  }
+  
+  .right {
+    margin-left: 50px;
+    flex: 2; 
+    padding-left: 20px;
+  }
+  
+  .right h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .right p {
+    font-size: 16px; 
+    line-height: 1.5;
+  }
+  
